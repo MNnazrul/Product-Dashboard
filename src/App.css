@@ -5,34 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
@@ -40,3 +12,40 @@
 .read-the-docs {
   color: #888;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  /* Add any additional styling for your cards here */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  flex: 1 0 calc(25% - 20px); /* 25% width with margins on both sides */
+}
+
+.card-image img {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+button {
+  background-color: #4caf50;
+  color: #0000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 150px;
+  font-size: 16px;
+  ;
+}
+button:hover {
+  background-color: #45a049;
+}
+
