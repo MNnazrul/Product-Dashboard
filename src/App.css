@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -13,39 +13,4 @@
   color: #888;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  /* Add any additional styling for your cards here */
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  flex: 1 0 calc(25% - 20px); /* 25% width with margins on both sides */
-}
-
-.card-image img {
-  background-color: aqua;
-  height: 150px;
-  width: 150px;
-  margin-bottom: 15px;
-  background-size: cover;
-}
-
-button {
-  background-color: #4caf50;
-  color: #0000;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  width: 150px;
-  font-size: 16px;
-  ;
-}
-button:hover {
-  background-color: #45a049;
-}
-
+ */

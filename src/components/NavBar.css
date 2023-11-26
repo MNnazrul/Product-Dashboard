@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+.link-selected {
+  display: block;
+  text-decoration: none;
+  color: blueviolet;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}

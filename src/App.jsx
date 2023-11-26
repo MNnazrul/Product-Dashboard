@@ -17,14 +17,14 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Dashboard />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Route>
     )
   );
 
   return (
     <div>
-      {/* <RouterProvider router={router} /> */}
-      <Product />
+      <RouterProvider router={router} />
     </div>
   );
 }
